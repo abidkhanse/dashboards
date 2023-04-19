@@ -1,0 +1,11 @@
+:root {
+    --color-main: #1a202e
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
