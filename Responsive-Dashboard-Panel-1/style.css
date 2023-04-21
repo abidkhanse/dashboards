@@ -130,7 +130,7 @@ header{
 }
 
 .menu-toggle label:hover {
-    background: #efefef;
+    background: #ebe5e5;
 }
 
 .main-content {
@@ -139,7 +139,7 @@ header{
 
 main{
     padding: 1.5rem;
-    background: #cfe1f3;
+    background: #ffffff;
     min-height: calc(100vh - 70px);
 }
 
@@ -162,4 +162,57 @@ main{
 .header-actions button span{
     font-size: 1.2rem;
     margin-left: .6rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.card-single {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 2);
+    border-radius: 10px;
+}
+
+.card-flex {
+    display: grid;
+    grid-template-columns: 70% auto;
+    align-items: center;
+}
+
+.card-head span {
+    display: block;
+    text-transform: uppercase;
+    color: #555;
+    font-size: .9rem;
+}
+
+.card-head small {
+    font-weight: 600;
+    color: #555;
+}
+
+.card-info h2 {
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.card-chart span{
+    font-size: 5rem;
+}
+
+.card-chart.success span{
+    color: seagreen;
+}
+
+.card-chart.fail span{
+    color: tomato;
+}
+
+.card-chart.progress span{
+    color: rgb(224, 224, 85);
 }
