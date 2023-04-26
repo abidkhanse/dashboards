@@ -340,6 +340,45 @@ span.indicator.even {
     font-weight: 500;
 }
 
+.jobs table th div {
+    background: #c7c7c7;
+    margin-bottom: 1rem;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    font-size: .85rem;
+    color: #444;
+    font-weight: 500;
+
+    font-weight: 800;
+    
+}
+
+.badge {
+    padding: .2rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: .7rem;
+}
+
+
+.badge.success {
+    background: #def7ec;
+    color: var(--color-main);
+}
+
+.badge.warning{
+    background: #e6e5bb;
+    color: orange;
+}
+
+.badge.completed{
+    background: #b5d3d4;
+    color: rgb(103, 112, 112);
+}
+
+
 table button {
     background: #8da2fb;
     color: midnightblue;
